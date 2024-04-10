@@ -1,0 +1,283 @@
+@font-face {
+    font-family: Cabin-Bold;
+    src: url(../fonts/Cabin-Bold.ttf);
+}
+@font-face {
+    font-family: Cabin;
+    src: url(../fonts/Cabin-Regular.ttf);
+  }
+.main_first{
+  height: 730px;
+  background-image: url(../img/2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mezera_dve{
+  width: 600px;
+  height: 200px;
+}
+.main_first_text{
+  margin-left: 70px;
+  color: white;
+  font-family: Cabin-Bold;
+}
+.your_story{
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+.main_first_p{
+  margin-top: 2px;
+  font-size: 12px;
+}
+.button_a{
+  margin-top: 7px;
+}
+.learn_button{
+  width: 140px;
+  height: 40px;
+  background-color: #3C1143;
+  text-align: center;
+  margin-top: 20px;
+}
+.web_learn{
+  width: 140px;
+  height: 40px;
+  background-color: #3C1143;
+  text-align: center;
+  margin-top: 50px;
+}
+.content_learn{
+  width: 140px;
+  height: 40px;
+  background-color: #3C1143;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 650px;
+}
+.marketing_learn{
+  width: 140px;
+  height: 40px;
+  background-color: #3C1143;
+  text-align: center;
+  margin-top: 50px;
+}
+a{
+  color: white;
+  font-size: 12px;
+  font-family: Cabin-Bold;
+  text-decoration: none;
+  padding-top: 50%;
+  vertical-align: middle;
+  
+}
+.content_title{
+  text-align: center;
+  
+}
+.crafting{
+  font-family: Cabin-Bold;
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+.content_p{
+  font-size: 14px;
+  font-family: Cabin;
+  margin-top: 5px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+.content_container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  justify-content: center;
+}
+#content{
+  margin-top: 0px;
+  background-color: #E1E9E5;
+  height: 650px;
+  background-size: cover;
+
+}
+.mezera{
+  height: 50px;
+  width: 1000px;
+}
+.koule{
+  width: 60px;
+  height: 60px;
+  background-color: #3C1143;
+  border-radius: 50%;
+  align-items: center;
+  vertical-align: middle;
+}
+.content_img{
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+}
+.content_case{
+  text-align: center;
+  justify-content: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.propagace{
+  margin-top: 20px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  font-size: 24px;
+}
+.content_case{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2{
+  font-family: Cabin-Bold;
+  font-size: 28px;
+  font-weight: 700;
+}
+.creation_p{
+  font-family: Cabin;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+.content_text{
+  font-family: Cabin;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.web{
+  display: flex;
+  flex-direction: row;
+  background-color: #F3F4E5;
+  height: 700px;
+  margin-bottom: 0px;
+}
+.web_img{
+  margin-top: 200px;
+  width: 460px;
+  height: 260px;
+  margin-left: 80px;
+  margin-right: 0px;
+}
+.web_text{
+  margin-top: 130px;
+  margin-left: 150px;
+  font-family: Cabin;
+}
+.web_p{
+  font-size: 14px;
+  margin-top: 5px;
+}
+.web_title{
+  margin-bottom: 0px;
+}
+.web_ul{
+  margin-top: 70px;
+  margin-left: 0px;
+  list-style: circle;
+  list-style-position: outside;
+}
+.web_info{
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+.web_info::marker{
+  font-size: 30px;
+  vertical-align: middle;
+}
+.marketing{
+  background-color: #ECF4E5;
+  height: 650px;
+  margin-top: 0px;
+}
+.marketing_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.marketing_text{
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.marketing_img{
+  margin-top: 190px;
+  width: 460px;
+  height: 260px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.marketing_p{
+  font-size: 14px;
+  margin-top: 5px;
+}
+.marketing_h1{
+  margin-bottom: 0px;
+}
+.marketing_ul{
+  margin-top: 70px;
+  margin-left: 0px;
+  list-style: circle;
+  list-style-position: outside;
+}
+.marketing_text{
+  font-family: Cabin;
+}
+.marketing_li{
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+.marketing_li::marker{
+  font-size: 30px;
+  vertical-align: middle;
+}
+.footer{
+  background-color: #EAE8F1;
+  height: 400px;
+}
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_title{
+  font-family: Cabin;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+.footer_img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  align-items: center;
+  margin-top: 40px;
+}
+hr{
+  height: 4px;
+  width: 10%;
+  background-color: white;
+  border: none;
+  margin-top: 5px;
+}
+.contacts{
+  margin-top: 40px;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.media{
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
