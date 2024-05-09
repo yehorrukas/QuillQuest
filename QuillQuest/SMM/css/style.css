@@ -1,12 +1,17 @@
 
 @font-face {
     font-family: Cabin-Bold;
-    src: url(../fonts/Cabin-Bold.ttf);
+    src: url(../font/Cabin-Bold.ttf);
 }
 @font-face {
     font-family: Cabin;
-    src: url(../fonts/Cabin-Regular.ttf);
+    src: url(../font/Cabin-Regular.ttf);
 }
+@font-face {
+    font-family: Raleway;
+    src: url(../font/Raleway-Regular.ttf);
+}
+
 body{
     background-color: #1D2228;
     width: 100vw;
@@ -20,7 +25,7 @@ body{
 .main{
     width: 1920px;
     height: 950px;
-    background-image: url(../img/christin-hume-mfB1B1s4sMc-unsplash\ 1.png);
+    background-image: url(../img/christin-hume-mfB1B1s4sMc-unsplash\ 1\ \(1\).png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

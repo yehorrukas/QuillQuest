@@ -1,11 +1,15 @@
 @font-face {
     font-family: Cabin-Bold;
-    src: url(../fonts/Cabin-Bold.ttf);
+    src: url(../font/Cabin-Bold.ttf);
 }
 @font-face {
     font-family: Cabin;
-    src: url(../fonts/Cabin-Regular.ttf);
-  }
+    src: url(../font/Cabin-Regular.ttf);
+}
+@font-face {
+  font-family: Raleway;
+  src: url(../../SMM/font/Raleway-Regular.ttf);
+}
 .main_first{
   height: 1061px;
   background-image: url(../img/2.png);
@@ -86,10 +90,11 @@ a{
 }
 .content_p{
   font-size: 14px;
-  font-family: Cabin;
+  font-family: Raleway;
   margin-top: 5px;
   font-weight: 300;
   margin-bottom: 0px;
+  font-weight: bold;
 }
 .content_container{
   display: flex;
@@ -143,17 +148,19 @@ h2{
   font-weight: 700;
 }
 .creation_p{
-  font-family: Cabin;
+  font-family: Raleway;
   font-size: 12px;
   font-weight: 400;
   text-align: center;
+  font-weight: bold;
 }
 .content_text{
-  font-family: Cabin;
+  font-family: Raleway;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 
@@ -174,7 +181,8 @@ h2{
 .web_text{
   margin-top: 130px;
   margin-left: 150px;
-  font-family: Cabin;
+  font-family: Raleway;
+  font-weight: bold;
 }
 .web_p{
   font-size: 14px;
@@ -182,6 +190,7 @@ h2{
 }
 .web_title{
   margin-bottom: 0px;
+  font-family: Cabin-Bold;
 }
 .web_ul{
   margin-top: 70px;
@@ -224,6 +233,7 @@ h2{
 }
 .marketing_h1{
   margin-bottom: 0px;
+  font-family: Cabin-Bold;
 }
 .marketing_ul{
   margin-top: 70px;
@@ -232,7 +242,8 @@ h2{
   list-style-position: outside;
 }
 .marketing_text{
-  font-family: Cabin;
+  font-family: Raleway;
+  font-weight: bold;
 }
 .marketing_li{
   margin-left: 0px;
