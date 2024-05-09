@@ -1,0 +1,34 @@
+
+@font-face {
+    font-family: Cabin-Bold;
+    src: url(../fonts/Cabin-Bold.ttf);
+}
+@font-face {
+    font-family: Cabin;
+    src: url(../fonts/Cabin-Regular.ttf);
+}
+body{
+    background-color: #1D2228;
+    width: 100vw;
+}
+.main_logo{
+    margin-top: 20px;
+    height: 53px;
+    margin-left: auto;
+    margin-left: 820px;
+}
+.main{
+    width: 1920px;
+    height: 950px;
+    background-image: url(../img/christin-hume-mfB1B1s4sMc-unsplash\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_title{
+    font-family: Cabin-Bold;
+    font-size: 128px;
+    text-align: center;
+    color: white;
+    margin-top: 300px;
+}
